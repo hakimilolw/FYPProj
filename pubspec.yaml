@@ -1,0 +1,30 @@
+name: bt
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^3.1.0
+  flutter_sound: ^9.12.0
+  permission_handler: ^11.3.1
+  file_picker: ^8.1.4
+  path_provider: ^2.0.15
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets\lottie\424.json
+    - assets\lottie\478.json
+    - assets\lottie\box.json
+    - assets\lottie\hrv.json
+

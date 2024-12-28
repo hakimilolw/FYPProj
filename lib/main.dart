@@ -35,7 +35,7 @@ class Home extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => BreathingTest()),
                 );
               },
-              child: const Text('Breathing Test'),
+              child: const Text('Breathingg Test'),
             ),
             const SizedBox(height: 70),
             ElevatedButton(
